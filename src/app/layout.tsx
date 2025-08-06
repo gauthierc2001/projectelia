@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Project Elia",
   description: "Welcome to Elia's World",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
