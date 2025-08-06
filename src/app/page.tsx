@@ -1,12 +1,10 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900 flex items-center justify-center p-4">
       <div className="text-center">
         {/* Welcome Text */}
         <h1 className="text-4xl md:text-6xl font-bold text-white mb-8 bg-clip-text text-transparent bg-gradient-to-r from-pink-400 to-purple-400">
-          Welcome to Elia's World
+          Welcome to Elia&apos;s World
         </h1>
         
         {/* Decorative Elements */}
@@ -14,6 +12,17 @@ export default function Home() {
           <div className="w-3 h-3 bg-pink-400 rounded-full animate-pulse"></div>
           <div className="w-3 h-3 bg-purple-400 rounded-full animate-pulse delay-100"></div>
           <div className="w-3 h-3 bg-blue-400 rounded-full animate-pulse delay-200"></div>
+        </div>
+        
+        {/* Project Elia Info */}
+        <div className="mb-8 max-w-2xl mx-auto">
+          <p className="text-lg text-gray-300 mb-4">
+            Emotionally Intelligent. Onchain. Yours.
+          </p>
+          <p className="text-sm text-gray-400 leading-relaxed">
+            A next-generation 3D AI assistant designed to form emotionally responsive relationships. 
+            Built on Base blockchain with adaptive memory, sentiment recognition, and the $ELIA token ecosystem.
+          </p>
         </div>
         
         {/* Follow Elia on X Button */}
