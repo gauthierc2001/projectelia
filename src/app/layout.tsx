@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   title: "Project Elia",
   description: "Welcome to Elia's World",
   icons: {
-    icon: "/favicon.ico",
+    icon: "/favicon-32x32.png",
   },
 };
 
@@ -28,9 +28,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <link rel="icon" href="/favicon-32x32.png" sizes="32x32" type="image/png" />
         <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-        <link rel="shortcut icon" href="/favicon.ico" />
+        <link rel="shortcut icon" href="/favicon-32x32.png" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
